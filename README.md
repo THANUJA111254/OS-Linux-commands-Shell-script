@@ -636,10 +636,17 @@ chmod 777 scriptest.sh
 ## OUTPUT
 
 
+![308621144-aa9e221b-1914-41c6-96a4-a3480fcc931c](https://github.com/user-attachments/assets/0270506e-61b7-4efb-81b6-54f3cb59e4e4)
+
+
+
 
  
 ls file1
 ## OUTPUT
+![308621222-7aa3c8d8-08cf-4789-be3e-8eb056aec0c6](https://github.com/user-attachments/assets/9f409548-1175-4d1c-bb69-5a429e20b5ca)
+
+
 
 echo $?
 
@@ -648,11 +655,17 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+
+![308621428-b392932f-12c9-47bf-9d86-fb44457adb34](https://github.com/user-attachments/assets/78b9f091-bd6e-47d8-9889-7963f660c8f0)
+
  
 abcd
  
 echo $?
  ## OUTPUT
+
+ ![308621520-6cac1aec-beb9-4683-91ba-2a6e062a4fd3](https://github.com/user-attachments/assets/e101edfe-e3ba-4a15-848f-737c10be66c6)
+
 
 
  
@@ -667,6 +680,7 @@ if [ $val1 \> $val2 ]
 then
 echo "$val1 is greater than $val2"
 else
+
 echo "$val1 is less than $val2"
 fi
 ^d
@@ -686,12 +700,18 @@ fi
 ```
 ##OUTPUT
 
+![308621595-f8e710dd-372f-4b4c-9db1-efd9aa88e581](https://github.com/user-attachments/assets/c4d4c311-c7f3-4d19-af43-017e53dc650f)
+
+
+
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+
+![308621672-23f2ccf2-f9e4-4dff-98fc-0b3812c642a5](https://github.com/user-attachments/assets/c0c1e279-ec8c-46f0-89fd-dbf0587ca0e5)
 
 
 # check file ownership
@@ -810,6 +830,11 @@ $ chmod 755 iftest.sh
 $ ./iftest.sh 
 ##OUTPUT
 
+![308621891-f0646e68-4bbe-4c0e-bf34-7212526995d8](https://github.com/user-attachments/assets/731dfc7b-7bfd-40c2-a4e9-914c3aaea85c)
+
+
+
+
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -856,8 +881,7 @@ fi
 
 $ chmod 755 ifnested.sh
  
-$ ./ifnested.sh 
-##OUTPUT
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -886,6 +910,8 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![308622068-a2ca4461-3b62-41b0-afa0-eb9523ebc501](https://github.com/user-attachments/assets/586f1351-665e-4b57-bfdc-d4aa1c025f70)
+
 
 
 # testing compound comparisons
@@ -902,6 +928,9 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+![308622136-8d68fc65-0b14-4777-af74-cefbc365c662](https://github.com/user-attachments/assets/0b939587-c909-404c-94fd-bd202fe2c0d2)
+
 
 # using the case command
 cat >casecheck.sh 
@@ -1013,6 +1042,9 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
+![308622542-ef2f1f17-feed-4357-a5a0-e63e33ea14be](https://github.com/user-attachments/assets/dba45127-d481-4634-b62d-9c4631688192)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -1080,6 +1112,9 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
+ ![308622796-d60ca9a2-6750-4f0e-bd8a-bad4b996fbce](https://github.com/user-attachments/assets/e9cfe8d8-821a-48d0-894d-79247ac3a8e4)
+
+
  
 cat forbreak.sh 
 ```bash
@@ -1121,6 +1156,9 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+
+![308622964-cd016d47-b62c-4697-8211-2ccbb4e91301](https://github.com/user-attachments/assets/4c851d85-07c5-44a2-a3ce-323f1d6a4176)
+
  
 cat exread.sh 
 ```bash
@@ -1136,6 +1174,9 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
+![308623114-33663a39-1b90-46dc-a249-29cce8e18d43](https://github.com/user-attachments/assets/13888574-224d-4de0-86d1-e9f4a0665ff8)
+
+
 
  cat exread1.sh
 ```bash
@@ -1147,6 +1188,9 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+
+![308623114-33663a39-1b90-46dc-a249-29cce8e18d43](https://github.com/user-attachments/assets/be064b06-7f57-4d55-ba45-d266e61c44e0)
+
 
 
 
@@ -1216,6 +1260,9 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
+
+ ![308623958-22c9f9e9-ae69-4152-9768-0122fe2f2a21](https://github.com/user-attachments/assets/d246f1b4-ec89-47f7-954c-9c4f22ed1669)
+
  
  
 cat > nc.awk
@@ -1247,6 +1294,9 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+![308624028-538413e2-0bfb-498f-bd90-181bb3e71a69](https://github.com/user-attachments/assets/c038013d-c56d-4d1b-92f4-5dd5c0ff9508)
+
+
  
 cat > palindrome.sh
 ```bash
@@ -1273,6 +1323,10 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
+
+## OUTPUT:
+
+![308624193-736ba1b8-9102-4b04-bf53-666e03ad5961](https://github.com/user-attachments/assets/666defed-282b-4ac2-ac9c-cae20b2bfa5a)
 
 
 # RESULT:
